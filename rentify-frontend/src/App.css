@@ -1,0 +1,143 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #343a40;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Landing page styles */
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* Remove the following line or replace with a valid image path */
+  /* background: url('path_to_your_image.jpg') no-repeat center center/cover; */
+  color: white;
+  text-align: center;
+}
+
+.landing h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.landing p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.landing .btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.landing .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Form styles */
+.form-container {
+  width: 300px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.form-container input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Dashboard styles */
+.dashboard {
+  padding: 2rem;
+}
+
+.dashboard h1 {
+  margin-bottom: 2rem;
+}
+
+.dashboard .property-list {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard .property-item {
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard .property-item h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.dashboard .property-item p {
+  margin: 0.5rem 0;
+}
+
+.dashboard .property-item .btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+}
+
+.dashboard .property-item .btn:hover {
+  background-color: #c82333;
+}
